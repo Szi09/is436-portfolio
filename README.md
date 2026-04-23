@@ -1,2 +1,1 @@
-# is436-portfolio
-https://shivaprogramming.com/IS436/content/lab/lab4.html
+This is a personal portfolio website built using HTML, CSS, and Bootstrap 5. It showcases my academic work from IS436 System Analysis, along with information about me, my projects, and a way to get in touch.

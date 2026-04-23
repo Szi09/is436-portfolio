@@ -31,9 +31,21 @@
   <section class="bg-dark text-white py-4">
     <div class="container">
       <h1 class="fw-bold">My Projects</h1>
-      <p class="text-secondary mb-0">Work I completed in IS436 System Analysis.</p>
+      <p class="text-secondary mb-0">Work I have completed in IS436 System Analysis.</p>
     </div>
   </section>
+
+  <!-- FILTER BAR -->
+<section class="py-3">
+  <div class="container text-center">
+    <div class="btn-group">
+      <button class="btn btn-outline-dark active" onclick="filterProjects('all')">All</button>
+      <button class="btn btn-outline-primary" onclick="filterProjects('analysis')">Analysis</button>
+      <button class="btn btn-outline-success" onclick="filterProjects('design')">Design</button>
+      <button class="btn btn-outline-danger" onclick="filterProjects('ui')">UI/UX</button>
+    </div>
+  </div>
+</section>
 
   <!-- Projects Grid -->
   <section class="py-5">
@@ -177,23 +189,7 @@
     </div>
   </section>
 
-  <!-- Challenge Box -->
-  <section class="py-4">
-    <div class="container">
-      <div class="alert alert-warning" role="alert">
-        <h5 class="alert-heading"><i class="bi bi-lightbulb-fill me-2"></i>Student Challenge</h5>
-        <p class="mb-1">Can you improve this projects page? Try these:</p>
-        <ul class="mb-0">
-          <li>Add a real screenshot image to each card using <code>&lt;img class="card-img-top"&gt;</code>.</li>
-          <li>Add a <strong>filter bar</strong> at the top using Bootstrap button groups to filter by category.</li>
-          <li>Link the "View Details" button to a dedicated project detail page.</li>
-          <li>Add a <strong>GitHub icon link</strong> (<code>bi-github</code>) to each project card.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
+    <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
     <p class="mb-0">&copy; 2026 MyPortfolio. Built with Bootstrap 5.</p>
   </footer>
